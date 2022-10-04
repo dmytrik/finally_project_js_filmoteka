@@ -1,0 +1,115 @@
+<header class="header dark-theme">
+  <div class="container header__container-index dark-theme">
+    <div class="header__container">
+      <nav class="header__nav">
+        <div><a href="index.html" class="logo"></a></div>
+
+        <div class="menu__container" data-menu>
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="index.html" class="header__link header__link-current">Home </a>
+            </li>
+            <li class="header__item">
+              <a href="library.html" class="header__link">my library</a>
+            </li>
+            <li class="header__item"> <label class="switch">
+                <input type="checkbox" class="change__bg-color">
+                <span class="slider round"></span>
+              </label></li>
+           
+          </ul>
+        </div>
+      </nav>
+      <div class="search__box">
+        <form class="search_form">
+          <input type="search" name="searshQuery" placeholder="Movie search" class="search" />
+          <button type="submit" class="type-submit-button">Search</button>
+        </form>
+        <span class="search_warning"></span>
+      </div>
+      <div class="filter">
+        
+        <form action="" id="filter-form" class="filter-form">
+          <div class="filter-flex">
+            <select class="filter_select-genre" name="genre" id="genre">
+              <option class="filter__option" value="">Genre</option>
+              <option value="28">Action</option> 
+              <option value="12">Adventure</option> 
+              <option value="16">Animation</option> 
+              <option value="35">Comedy</option> 
+              <option value="80">Crime</option> 
+              <option value="99">Documentary</option> 
+              <option value="18">Drama</option> 
+              <option value="10751">Family</option>
+               <option value="14">Fantasy</option> 
+               <option value="36">History</option> 
+               <option value="27">Horror</option> 
+               <option value="10402">Music</option>
+                <option value="9648">Mystery</option> 
+                <option value="10749">Romance</option> 
+                <option value="878">Science Fiction</option> 
+                <option value="10770">TV Movie</option> 
+                <option value="53">Thriller</option> 
+                <option value="10752">War</option> 
+                <option value="37">Western</option>
+            </select>
+          </div>
+          <div class="filter-flex">
+            <select name="" id="year" class="filter_select-year">
+              <option value="">Year</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+            </select>
+          </div>
+          <div class="filter-flex">
+            <select name="" id="sort-by" class="filter_select-sort">
+              <option value="">Sort by</option>
+              <option value="popularity.desc">Popularity (decreasing)</option>
+              <option value="popularity.asc">Popularity (increasing)</option>
+              <option value="primary_release_date.desc">
+                Release date (decreasing)
+              </option>
+              <option value="primary_release_date.asc">
+                Release date (ascending)
+              </option>
+              <option value="original_title.asc">Name (A-Z)</option>
+              <option value="original_title.desc">Name (Z-A)</option>
+            </select>
+          </div>
+          
+          <button type="submit" class="form-filter-reset">Reset</button>
+        </form>
+      </div>
+      <div class="reg__container">
+        <div class="more-button">
+          <div class="more-button_img"><div></div></div>
+        </div>
+        
+          <div class="more-button-list">
+              <input type="text" placeholder="Login" class="reg__input">
+              <input type="text" placeholder="Password" class="reg__input">
+              <button class="login__button">Login</button>
+               <button class="signup__button">Sign Up</button>
+               
+          </div>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+</header>

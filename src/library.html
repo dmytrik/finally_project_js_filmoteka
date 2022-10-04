@@ -13,21 +13,15 @@
   </head>
   <body class="dark-theme">
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/header.html"></include>
+    <include src="./partials/library-header.html"></include>
+    <div id="player" class=""></div>
     <include src="./partials/main.html"></include>
     <include src="./partials/footer.html"></include>
+    <include src="./partials/library-modal.html"></include>
 
-    <include src="./partials/team-modal.html"></include>
-    <include src="./partials/loader.html"></include>
-    <include src="./partials/arrowUp-scroll.html"></include>
+    <script type="module" src="./js/rewiev-local-storage.js"></script>
+    <script type="module" src="./js/library-all.js"></script>
 
-    <include src="./partials/modal.html"></include>
-
-    <script type="module" src="./index.js"></script>
-    <!-- <script type="module" src="./js/registration.js"></script>
-
-    <script type="module" src="./js/start.js"></script>
-    <script type="module" src="./js/modal.js"></script>
-    <script type="module" src="./js/local-storage.js"></script> -->
+    <script type="module" src="./js/library-watched-queue.js"></script>
   </body>
 </html>

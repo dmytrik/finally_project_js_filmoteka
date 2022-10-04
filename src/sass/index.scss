@@ -1,2 +1,13 @@
-@import './common';
-@import './example';
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import './base';
+@import './header';
+@import './header-library';
+@import './main';
+@import './footer';
+@import './modal';
+@import './team_modal';
+@import './loader';
+@import './button-color-library';
+@import './arrowUp-scroll';
+@import './filter';
+@import './library-modal-style';
